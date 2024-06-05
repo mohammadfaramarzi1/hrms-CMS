@@ -1,4 +1,4 @@
-## HMRS CMS
+## HRMS CMS
 
 This is my third template for my resume. This project is multiple page but is not responsive.
 i used from apexchart, sweetalert and texteditor library.
