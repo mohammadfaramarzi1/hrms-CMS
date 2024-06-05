@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/plugins/rte_theme_default.css">
+    <link rel="stylesheet" href="../styles/app.css">
+    <title>CMS - Article</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header d-flex justify-between">
+            <div class="content-right">
+                <div class="header-hello d-flex align-center">
+                    <h2></h2> 👋
+                </div>
+            </div>
+            <div class="content-left d-flex align-center">
+                <a href="./notification.html" class="header-notif d-flex align-center justify-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.67964 8.79403C6.05382 5.49085 8.77095 3 12 3C15.2291 3 17.9462 5.49085 18.3204 8.79403L18.6652 11.8385C18.7509 12.595 19.0575 13.3069 19.5445 13.88C20.5779 15.0964 19.7392 17 18.1699 17H5.83014C4.26081 17 3.42209 15.0964 4.45549 13.88C4.94246 13.3069 5.24906 12.595 5.33476 11.8385L5.67964 8.79403Z" stroke="#16151C" stroke-width="1.5" stroke-linejoin="round"/>
+                        <path d="M15 19C14.5633 20.1652 13.385 21 12 21C10.615 21 9.43668 20.1652 9 19" stroke="#16151C" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                </a>
+                <div class="header-person d-flex align-center">
+                    <img src="../images/Rectangle 3463281.jpg" alt="user photo" class="header-person__img">
+                    <h2 class="header-person__name"></h2>
+                    <button class="logout__btn">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.83337 8.33325L10 11.6666L14.1667 8.33325" stroke="#16151C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
+                    <ul class="logout-menu border-radius-4">
+                        <li>
+                            <button class="logout-menu__link  align-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M352 224H305.5c-45 0-81.5 36.5-81.5 81.5c0 22.3 10.3 34.3 19.2 40.5c6.8 4.7 12.8 12 12.8 20.3c0 9.8-8 17.8-17.8 17.8h-2.5c-2.4 0-4.8-.4-7.1-1.4C210.8 374.8 128 333.4 128 240c0-79.5 64.5-144 144-144h80V34.7C352 15.5 367.5 0 386.7 0c8.6 0 16.8 3.2 23.2 8.9L548.1 133.3c7.6 6.8 11.9 16.5 11.9 26.7s-4.3 19.9-11.9 26.7l-139 125.1c-5.9 5.3-13.5 8.2-21.4 8.2H384c-17.7 0-32-14.3-32-32V224zM80 96c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16H400c8.8 0 16-7.2 16-16V384c0-17.7 14.3-32 32-32s32 14.3 32 32v48c0 44.2-35.8 80-80 80H80c-44.2 0-80-35.8-80-80V112C0 67.8 35.8 32 80 32h48c17.7 0 32 14.3 32 32s-14.3 32-32 32H80z"/></svg>
+                                LogOut
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </header>
+    
+        <aside class="aside">
+            <div class="aside__head d-flex align-center">
+                <svg width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.35498" y="0.940796" width="53.2544" height="53.2544" rx="26.6272" fill="#8D75F5"/>
+                    <path d="M39.9601 29.9522C39.9601 31.8362 39.5831 33.4573 38.8693 34.641C37.953 36.1614 36.5288 36.9658 34.751 36.9658C31.3577 36.9658 29.0765 32.7089 26.6621 28.2024C24.9079 24.9288 22.7307 20.8553 20.9407 20.8553C20.0781 20.8553 19.0208 21.9036 18.1817 23.5907C17.2219 25.5754 16.7123 27.7476 16.6892 29.9522C16.6892 31.3283 16.9399 32.5008 17.3941 33.2548C17.8159 33.9552 18.3943 34.2808 19.2132 34.2808C20.7516 34.2808 22.6401 31.0363 23.261 29.9745C23.4404 29.6668 23.7346 29.443 24.0791 29.3522C24.4235 29.2615 24.7898 29.3113 25.0975 29.4906C25.4052 29.67 25.6291 29.9643 25.7198 30.3087C25.8106 30.6531 25.7608 31.0194 25.5814 31.3271C24.5846 33.0367 23.732 34.236 22.8963 35.1064C21.6958 36.3572 20.4931 36.9658 19.2132 36.9658C17.4355 36.9658 16.0113 36.1614 15.095 34.641C14.3812 33.4573 14.0042 31.8362 14.0042 29.9522C14.0042 25.0328 16.6423 18.1702 20.9407 18.1702C24.3339 18.1702 26.6152 22.4272 29.0295 26.9337C30.786 30.2072 32.9643 34.2808 34.751 34.2808C35.57 34.2808 36.1484 33.9552 36.5702 33.2548C37.0244 32.5008 37.275 31.3283 37.275 29.9522C37.2523 27.7477 36.7431 25.5755 35.7836 23.5907C34.9446 21.9036 33.8873 20.8553 33.0236 20.8553C32.3836 20.8553 31.6128 21.4147 30.7312 22.5144C30.5086 22.7925 30.1848 22.9707 29.8308 23.0099C29.4769 23.0492 29.1218 22.9462 28.8438 22.7236C28.5658 22.5011 28.3875 22.1772 28.3483 21.8233C28.3091 21.4693 28.412 21.1143 28.6346 20.8362C30.0722 19.0428 31.5076 18.1702 33.0236 18.1702C34.9983 18.1702 36.8275 19.6705 38.1868 22.3947C39.3271 24.7526 39.9326 27.3332 39.9601 29.9522Z" fill="white"/>
+                    </svg>                
+                <h1 class="aside__title">HRMS</h1>
+            </div>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="../index.html" class="menu__link d-flex align-center" data-title="dashboard">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                            <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M4 2C2.89543 2 2 2.89543 2 4V8C2 9.10457 2.89543 10 4 10H8C9.10457 10 10 9.10457 10 8V4C10 2.89543 9.10457 2 8 2H4ZM18 10C20.2091 10 22 8.20914 22 6C22 3.79086 20.2091 2 18 2C15.7909 2 14 3.79086 14 6C14 8.20914 15.7909 10 18 10ZM10 18C10 20.2091 8.20914 22 6 22C3.79086 22 2 20.2091 2 18C2 15.7909 3.79086 14 6 14C8.20914 14 10 15.7909 10 18ZM16 14C14.8954 14 14 14.8954 14 16V20C14 21.1046 14.8954 22 16 22H20C21.1046 22 22 21.1046 22 20V16C22 14.8954 21.1046 14 20 14H16Z"/>
+                            </svg>
+                        <h3 class="menu__text">Dashboard</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./employees.html" class="menu__link d-flex align-center" data-title="all employees">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="12" cy="16.5" rx="6" ry="2.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            <circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6.44547 13.2615C5.20689 13.313 4.06913 13.5361 3.18592 13.8894C2.68122 14.0913 2.22245 14.3505 1.87759 14.6766C1.53115 15.0042 1.25 15.4512 1.25 16C1.25 16.5488 1.53115 16.9958 1.87759 17.3234C2.22245 17.6495 2.68122 17.9087 3.18592 18.1106C3.68571 18.3105 4.26701 18.4687 4.90197 18.5778C4.40834 18.0453 4.09852 17.4503 4.01985 16.8195C3.92341 16.787 3.83104 16.7531 3.74301 16.7179C3.34289 16.5578 3.06943 16.386 2.90826 16.2336C2.7498 16.0837 2.74999 16.0046 2.75 16.0001L2.75 16L2.75 15.9999C2.74999 15.9954 2.7498 15.9163 2.90826 15.7664C3.06943 15.614 3.34289 15.4422 3.74301 15.2821C3.94597 15.201 4.17201 15.1266 4.41787 15.0608C4.83157 14.371 5.53447 13.756 6.44547 13.2615Z" fill="#16151C"/>
+                            <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M19.9803 16.8195C19.9016 17.4503 19.5918 18.0453 19.0982 18.5778C19.7331 18.4687 20.3144 18.3105 20.8142 18.1106C21.3189 17.9087 21.7777 17.6495 22.1226 17.3234C22.469 16.9958 22.7502 16.5488 22.7502 16C22.7502 15.4512 22.469 15.0042 22.1226 14.6766C21.7777 14.3505 21.3189 14.0913 20.8142 13.8894C19.931 13.5361 18.7933 13.313 17.5547 13.2615C18.4657 13.756 19.1686 14.371 19.5823 15.0608C19.8281 15.1266 20.0542 15.201 20.2571 15.2821C20.6573 15.4422 20.9307 15.614 21.0919 15.7664C21.2504 15.9163 21.2502 15.9954 21.2502 15.9999V16V16.0001C21.2502 16.0046 21.2504 16.0837 21.0919 16.2336C20.9307 16.386 20.6573 16.5578 20.2571 16.7179C20.1691 16.7531 20.0767 16.787 19.9803 16.8195Z" fill="#16151C"/>
+                            <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M16.5145 10.1522C16.2946 10.6126 16.0063 11.0341 15.6628 11.4036C16.0587 11.6243 16.5147 11.75 17.0001 11.75C18.5188 11.75 19.7501 10.5188 19.7501 9C19.7501 7.48122 18.5188 6.25 17.0001 6.25C16.8958 6.25 16.7929 6.2558 16.6916 6.26711C16.8637 6.73272 16.9684 7.23096 16.9939 7.75001C16.996 7.75 16.998 7.75 17.0001 7.75C17.6904 7.75 18.2501 8.30964 18.2501 9C18.2501 9.69036 17.6904 10.25 17.0001 10.25C16.8278 10.25 16.6637 10.2152 16.5145 10.1522Z"/>
+                            <path stroke="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M7.30845 6.26711C7.20719 6.2558 7.10427 6.25 7 6.25C5.48122 6.25 4.25 7.48122 4.25 9C4.25 10.5188 5.48122 11.75 7 11.75C7.48537 11.75 7.94138 11.6243 8.33721 11.4036C7.99374 11.0341 7.70549 10.6126 7.4856 10.1522C7.33631 10.2152 7.17222 10.25 7 10.25C6.30964 10.25 5.75 9.69036 5.75 9C5.75 8.30964 6.30964 7.75 7 7.75C7.00205 7.75 7.00409 7.75 7.00614 7.75001C7.0317 7.23096 7.13641 6.73272 7.30845 6.26711Z"/>
+                            </svg>                        
+                        <h3 class="menu__text">All Employees</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./departments.html" class="menu__link d-flex align-center" data-title="all departments">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6" cy="4" r="2" stroke="currentColor" stroke-width="1.5"/>
+                            <ellipse cx="6" cy="8" rx="3" ry="2" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="18" cy="16" r="2" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M22 12C22 6.47715 17.5228 2 12 2M12 22C6.47715 22 2 17.5228 2 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <ellipse cx="18" cy="20" rx="3" ry="2" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>                        
+                        <h3 class="menu__text">All Departments</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./attendances.html" class="menu__link d-flex align-center" data-title="attendance">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 2V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 2V5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 7.5C3 5.29086 4.79086 3.5 7 3.5H17C19.2091 3.5 21 5.29086 21 7.5V18C21 20.2091 19.2091 22 17 22H7C4.79086 22 3 20.2091 3 18V7.5Z" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M9 15L10.7528 16.4023C11.1707 16.7366 11.7777 16.6826 12.1301 16.2799L15 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 9H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>                        
+                        <h3 class="menu__text">Attendance</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./payroll.html" class="menu__link d-flex align-center" data-title="payroll">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M12 12C13.1046 12 14 12.8954 14 14C14 15.1046 13.1046 16 12 16C10.8954 16 10 15.1046 10 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M12 6.5V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 16V17.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                        
+                        <h3 class="menu__text">Payroll</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./jobs.html" class="menu__link d-flex align-center" data-title="jobs">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 6V5C8 3.34315 9.34315 2 11 2H13C14.6569 2 16 3.34315 16 5V6M2 10.3475C2 10.3475 5.11804 12.4244 9.97767 12.9109M22 10.3475C22 10.3475 18.882 12.4244 14.0223 12.9109M6 22H18C20.2091 22 22 20.2091 22 18V10C22 7.79086 20.2091 6 18 6H6C3.79086 6 2 7.79086 2 10V18C2 20.2091 3.79086 22 6 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M14 12.1599V13.1599C14 13.1699 14 13.1699 14 13.1799C14 14.2699 13.99 15.1599 12 15.1599C10.02 15.1599 10 14.2799 10 13.1899V12.1599C10 11.1599 10 11.1599 11 11.1599H13C14 11.1599 14 11.1599 14 12.1599Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                        
+                        <h3 class="menu__text">Jobs</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./chat.html" class="menu__link d-flex align-center" data-title="chat">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="10" cy="17.5" rx="7" ry="3.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            <circle cx="10" cy="7" r="4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0448 10.2496C14.7228 10.7485 14.3288 11.1965 13.8774 11.5791C14.2319 11.6901 14.609 11.75 15.0001 11.75C17.0712 11.75 18.7501 10.0711 18.7501 7.99999C18.7501 6.04422 17.2529 4.43814 15.3421 4.26538C15.6083 4.78435 15.8011 5.34717 15.9068 5.94015C16.6979 6.28887 17.2501 7.07994 17.2501 7.99999C17.2501 9.2277 16.2668 10.2257 15.0448 10.2496Z" stroke="currentColor"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9997 17.5563C18.9896 18.1705 18.8148 18.7606 18.5009 19.3108C18.8693 19.2095 19.2144 19.092 19.5312 18.96C20.1284 18.7112 20.6606 18.3959 21.055 18.0074C21.452 17.6162 21.7501 17.1064 21.7501 16.5C21.7501 15.8935 21.452 15.3837 21.055 14.9925C20.6606 14.604 20.1284 14.2887 19.5312 14.0399C18.5086 13.6138 17.1907 13.3394 15.7495 13.2683C16.7517 13.7774 17.5702 14.4169 18.1351 15.1443C18.4329 15.2274 18.7072 15.3215 18.9543 15.4245C19.443 15.6281 19.7894 15.8514 20.0023 16.0611C20.2125 16.2682 20.2501 16.416 20.2501 16.5C20.2501 16.5839 20.2125 16.7317 20.0023 16.9388C19.7961 17.1419 19.4645 17.3579 18.9997 17.5563Z" stroke="currentColor"/>
+                            </svg>                        
+                        <h3 class="menu__text">Chat</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="./upload.html" class="menu__link d-flex align-center" data-title="upload">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 10H16M8 14H16M8 18H12M8 4C8 5.10457 8.89543 6 10 6H14C15.1046 6 16 5.10457 16 4M8 4C8 2.89543 8.89543 2 10 2H14C15.1046 2 16 2.89543 16 4M8 4H7C4.79086 4 3 5.79086 3 8V18C3 20.2091 4.79086 22 7 22H17C19.2091 22 21 20.2091 21 18V8C21 5.79086 19.2091 4 17 4H16" stroke="CurrentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>                        
+                        <h3 class="menu__text">Uplaod</h3>                       
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link d-flex align-center" data-title="article">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 13H11M17 9H11M17 17H11M16 2V5M8 2V5M7 22H17C19.2091 22 21 20.2091 21 18V7.5C21 5.29086 19.2091 3.5 17 3.5H7C4.79086 3.5 3 5.29086 3 7.5V18C3 20.2091 4.79086 22 7 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M8.5 9C8.5 9.55228 8.05228 10 7.5 10C6.94772 10 6.5 9.55228 6.5 9C6.5 8.44772 6.94772 8 7.5 8C8.05228 8 8.5 8.44772 8.5 9Z" fill="white"/>
+                            <path d="M8.5 13C8.5 13.5523 8.05228 14 7.5 14C6.94772 14 6.5 13.5523 6.5 13C6.5 12.4477 6.94772 12 7.5 12C8.05228 12 8.5 12.4477 8.5 13Z" stroke="white"/>
+                            <path d="M8.5 17C8.5 17.5523 8.05228 18 7.5 18C6.94772 18 6.5 17.5523 6.5 17C6.5 16.4477 6.94772 16 7.5 16C8.05228 16 8.5 16.4477 8.5 17Z" stroke="white"/>
+                            </svg>                                                   
+                        <h3 class="menu__text">Article</h3>                       
+                    </a>
+                </li>
+            </ul>
+            <div class="modes">
+                <button id="dark" class="modes__btn avtive-mode border-radius-8 d-flex align-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.67163 14.8687C10.751 14.8687 14.8687 10.751 14.8687 5.67163C14.8687 4.74246 14.7309 3.84548 14.4746 3C18.251 4.14461 21 7.65276 21 11.803C21 16.8824 16.8824 21 11.803 21C7.65276 21 4.14461 18.251 3 14.4746C3.84548 14.7309 4.74246 14.8687 5.67163 14.8687Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>
+                    <span>Dark</span>                    
+                </button>
+            </div>
+        </aside>
+    
+        <main class="main">
+            <div class="article__container">
+                <div id="div_editor1" >
+                    <p>Hello, Welcome😍</p>
+                </div>
+                <button class="add-new-btn article__btn border-radius-8">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8V16M16 12H8M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        Send Data
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <div class="loader__container d-flex align-center justify-center">
+        <div class="loader"></div>
+    </div>
+
+    <script src="../js/plugins/rte.js"></script>
+    <script src="../js/plugins/all_plugins.js"></script>
+    <script src="../js/plugins/sweetalet.js"></script>
+    <script src="../js/article.js" type="module"></script>
+</body>
+</html>

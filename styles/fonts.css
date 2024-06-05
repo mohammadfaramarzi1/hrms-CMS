@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Dosis Medium";
+    src: url("../fonts/Dosis/Dosis-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Dosis SemiBold";
+    src: url("../fonts/Dosis/Dosis-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ruda Medium";
+    src: url("../fonts/Ruda/Ruda-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ruda SemiBold";
+    src: url("../fonts/Ruda/Ruda-SemiBold.ttf") format("truetype");
+}
